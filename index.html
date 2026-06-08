@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitZone Gym</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    line-height:1.6;
+}
+
+header{
+    background:#111;
+    color:white;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    height:100vh;
+    background:url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80') center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-content{
+    background:rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:10px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:22px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 30px;
+    background:#ff6600;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-size:18px;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:36px;
+}
+
+.about{
+    text-align:center;
+}
+
+.plans{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.plan{
+    border:1px solid #ddd;
+    padding:30px;
+    text-align:center;
+    border-radius:10px;
+}
+
+.plan h3{
+    margin-bottom:10px;
+}
+
+.plan-price{
+    font-size:32px;
+    color:#ff6600;
+    margin:15px 0;
+}
+
+.trainers{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.trainer{
+    text-align:center;
+}
+
+.trainer img{
+    width:100%;
+    border-radius:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">FITZONE</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#plans">Plans</a>
+<a href="#trainers">Trainers</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-content">
+<h1>Transform Your Body</h1>
+<p>Build Strength. Improve Fitness. Achieve Your Goals.</p>
+
+<a href="https://stable-carefree-assistant.anvil.app"
+   target="_blank"
+   class="btn">
+   Get Membership
+</a>
+
+</div>
+</section>
+
+<section id="about">
+<h2 class="section-title">About Us</h2>
+
+<div class="about">
+<p>
+FitZone Gym is dedicated to helping members achieve their fitness goals through expert coaching,
+modern equipment, and personalized workout programs.
+</p>
+</div>
+</section>
+
+<section id="plans">
+<h2 class="section-title">Membership Plans</h2>
+
+<div class="plans">
+
+<div class="plan">
+<h3>Basic</h3>
+<div class="plan-price">₹999</div>
+<p>Gym Access</p>
+<p>Locker Facility</p>
+<p>Cardio Area</p>
+</div>
+
+<div class="plan">
+<h3>Premium</h3>
+<div class="plan-price">₹1999</div>
+<p>Personal Trainer</p>
+<p>Diet Plan</p>
+<p>Full Access</p>
+</div>
+
+<div class="plan">
+<h3>Elite</h3>
+<div class="plan-price">₹2999</div>
+<p>24/7 Access</p>
+<p>Premium Coaching</p>
+<p>Customized Training</p>
+</div>
+
+</div>
+</section>
+
+<section id="trainers">
+<h2 class="section-title">Our Trainers</h2>
+
+<div class="trainers">
+
+<div class="trainer">
+<img src="https://images.unsplash.com/photo-1566753323558-f4e0952af115?auto=format&fit=crop&w=500&q=80">
+<h3>Venkat</h3>
+<p>Strength Coach</p>
+</div>
+
+<div class="trainer">
+<img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=500&q=80">
+<h3>Sarah Johnson</h3>
+<p>Fitness Expert</p>
+</div>
+
+<div class="trainer">
+<img src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?auto=format&fit=crop&w=500&q=80">
+<h3>Michael Lee</h3>
+<p>Bodybuilding Coach</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Contact Us</h2>
+
+<div class="contact">
+<p>Email: krishnakart209@gmail.com</p>
+<p>Phone: +91 8374985034</p>
+<p>Location: Hyderabad, Telangana</p>
+
+<a href="https://stable-carefree-assistant.anvil.app"
+   target="_blank"
+   class="btn">
+   Get Membership
+</a>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 FitZone Gym. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
