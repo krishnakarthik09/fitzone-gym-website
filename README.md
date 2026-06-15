@@ -1,90 +1,122 @@
-#  FitZone Gym Website
+# 🏋️ FitZone Gym Membership Management System
 
-A modern and responsive gym landing page built using **HTML** and **CSS**. This project showcases a professional fitness website with membership plans, trainer profiles, contact information, and a membership registration button connected to an Anvil web application.
+![Project Status](https://img.shields.io/badge/Status-Live-brightgreen)
+![Tech](https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JS-blue)
+![Backend](https://img.shields.io/badge/Backend-Anvil%20Works-orange)
 
-## 🚀 Features
+## 🔗 Live Demo
+👉 [Click here to visit FitZone Website](https://krishnakarthik09.github.io/fitzone-gym-website/)
 
-* Responsive gym landing page
-* Attractive hero section with background image
-* About Us section
-* Membership Plans section
-* Trainers section
-* Contact information section
-* "Get Membership" button linked to Anvil application
-* Clean and modern UI design
-* Sticky navigation bar
+---
 
-## 🛠️ Technologies Used
+## 📌 Project Overview
 
-* HTML5
-* CSS3
+**FitZone Gym Membership Management System** is a full-stack web application that allows users to view gym membership plans and register online. When a user submits the membership form, the gym owner/admin automatically receives an **email notification** with the member's details — making it a real-world, fully functional system.
 
-## 📂 Project Structure
+---
 
-```text
-FitZone-Gym/
-│
-├── index.html
-└── README.md
+## ✨ Key Features
+
+| Feature | Description |
+|---|---|
+| 🎨 Responsive Frontend | Clean, mobile-friendly gym website |
+| 💰 Membership Plans | Basic (₹999), Premium (₹1999), Elite (₹2999) |
+| 📋 Online Registration Form | Built with Anvil Works full-stack platform |
+| 🗄️ Database Storage | Member details saved automatically in database |
+| 📧 Auto Email Notification | Admin receives instant email when form is submitted |
+| 🚀 Live Deployment | Hosted on GitHub Pages + Anvil Works |
+
+---
+
+## 🔥 How It Works
+
+```
+User visits website
+       ↓
+User clicks "Get Membership" button
+       ↓
+Registration form opens (Anvil Works)
+       ↓
+User fills name, phone, plan details
+       ↓
+Data saved to Database automatically
+       ↓
+Admin/Gym Owner gets Email Notification instantly 📧
 ```
 
-## 📸 Sections Included
+---
 
-### Home
+## 🛠️ Tech Stack
 
-* Hero banner
-* Fitness slogan
-* Membership button
+| Layer | Technology Used |
+|---|---|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Anvil Works (Python-based) |
+| Database | Anvil Works Built-in Database |
+| Email Service | Anvil Works Email Module |
+| Deployment | GitHub Pages + Anvil Works Cloud |
 
-### About Us
+---
 
-* Information about the gym
+## 📧 Email Notification Feature (Highlight)
+
+> This is the most important feature of this project.
+
+- When a new member fills the registration form, the **gym owner receives an automatic email**
+- Email contains member details: Name, Phone, Plan selected
+- No manual work needed for admin — fully automated
+- Built using **Anvil Works Email API**
+
+---
+
+## 📸 Screenshots
+
+### Homepage
+![Homepage](https://krishnakarthik09.github.io/fitzone-gym-website/)
 
 ### Membership Plans
+- Basic Plan — ₹999/month
+- Premium Plan — ₹1999/month
+- Elite Plan — ₹2999/month
 
-* Basic Plan – ₹999
-* Premium Plan – ₹1999
-* Elite Plan – ₹2999
+---
 
-### Trainers
+## 🚀 How to Run Locally
 
-* Strength Coach
-* Fitness Expert
-* Bodybuilding Coach
+```bash
+# Clone the repository
+git clone https://github.com/krishnakarthik09/fitzone-gym-website.git
 
-### Contact
+# Open index.html in browser
+open index.html
+```
 
-* Email Address
-* Phone Number
-* Location
-* Membership Registration Button
+> Note: For backend features (form + email), visit the live link above.
 
-## 🔗 Membership Registration
+---
 
-The membership button redirects users to the Anvil application:
+## 👨‍💻 What I Learned
 
-https://stable-carefree-assistant.anvil.app
+- Building a responsive frontend website
+- Integrating a third-party full-stack platform (Anvil Works)
+- Working with databases to store user data
+- Implementing automatic email notifications
+- Deploying projects using GitHub Pages
 
-## ▶️ How to Run
+---
 
-1. Download or clone this repository.
-2. Open the project folder.
-3. Open `index.html` in any web browser.
+## 📞 Contact
 
-## 📤 Deployment
+**Krishna Karthik**
+- 📧 Email: krishnakart209@gmail.com
+- 📍 Location: Hyderabad, Telangana
+- 🔗 GitHub: [krishnakarthik09](https://github.com/krishnakarthik09)
 
-You can deploy this project using:
-
-* GitHub Pages
-* Netlify
-* Vercel
-
-## 👨‍💻 Author
-
-Krishna Karthik
-
-Email: [krishnakart209@gmail.com](mailto:krishnakart209@gmail.com)
+---
 
 ## 📄 License
+This project is open source and available for learning purposes.
 
-This project is open source and available for educational and personal use.
+---
+
+⭐ *If you found this project useful, please give it a star on GitHub!
