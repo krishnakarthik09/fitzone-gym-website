@@ -3,7 +3,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
+<<meta name="viewport" 
+content="width=device-width, initial-scale=1.0">
 <title>FitZone Gym</title>
 
 <style>
@@ -138,6 +139,58 @@ footer{
     text-align:center;
     padding:20px;
 }
+/* Mobile Responsive - Tablets & Small Laptops */
+@media (max-width: 768px) {
+
+    /* Navigation */
+    nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    /* Hero Text */
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    /* Membership Plans */
+    .plans {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    /* Trainer Cards */
+    .trainers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trainers img {
+        width: 80%;
+        max-width: 250px;
+        height: auto;
+    }
+}
+
+/* Extra Small Phones */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .plans, .trainers {
+        padding: 0 10px;
+    }
+}
 </style>
 
 </head>
@@ -220,7 +273,7 @@ modern equipment, and personalized workout programs.
 
 <div class="trainer">
 <img src="https://images.unsplash.com/photo-1566753323558-f4e0952af115?auto=format&fit=crop&w=500&q=80">
-<h3>Venkat</h3>
+<h3>Venkatesh</h3>
 <p>Strength Coach</p>
 </div>
 
@@ -243,9 +296,9 @@ modern equipment, and personalized workout programs.
 <h2 class="section-title">Contact Us</h2>
 
 <div class="contact">
-<p>Email: krishnakart209@gmail.com</p>
-<p>Phone: +91 8374985034</p>
-<p>Location: Hyderabad, Telangana</p>
+<p>Email: fitzonegym@gmail.com</p>
+<p>Phone: 91 XXXXXXXXXX</p>
+<p>Location: Gudur, Shivampet, Medak, Telangana</p>
 
 <a href="https://natural-wavy-tank.anvil.app"
    target="_blank"
